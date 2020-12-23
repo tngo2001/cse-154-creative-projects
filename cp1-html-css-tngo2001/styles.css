@@ -1,0 +1,95 @@
+/*
+  Thompson Ngo
+  10/06/2020
+  Section AF, Wilson Tang
+
+  This file determines the layout, structure, and presentation of both my HTML pages.
+  This includes, but is not limited to the colors and fonts of the words.
+*/
+
+body {
+  background-color: #333;
+  font-family: 'Roboto', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  color: #fff;
+}
+
+img {
+  width: 600px;
+  height: 338px;
+  border: 3px solid #AAF200;
+}
+
+#bc {
+  width: 125px;
+  height: 125px;
+}
+
+a {
+  color: #AAF200;
+}
+
+.me {
+  height: 25%;
+  width: 25%;
+}
+/*
+  I used this as an inspiration to center my image:
+  https://html-online.com/articles/image-align-center/
+*/
+.center, #nav li a {
+  text-align: center;
+}
+/*
+  Note: The following code is copied (although it is somewhat modified to meet the requirements of
+  this assignment) from various old assignments I did from when I took PROG 109 at Bellevue College.
+  It is very likely that I got some inspiration from various online sources (although I don't think
+  I copied anything exactly), however, my instructor did not require me to cite my sources,
+  therefore, I have no way of finding the sources of my inspiration (if there were any).
+*/
+#container {
+  border-left: 20px cornflowerblue solid;
+  background-color: #808080;
+  padding-left: 5px;
+  width: 75%;
+  margin: auto;
+}
+
+#educational {
+  background-color: #ffff00;
+  color: #000;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #4CAF50;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav li a:not(.active) {
+  color: #ffffff;
+}
+
+.active {
+  background-color: #AAF200;
+  color: #000000;
+}

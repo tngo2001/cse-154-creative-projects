@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+  ***
+  Name: Thompson Ngo
+  Date: November 16, 2020
+  Section: CSE 154 AF
+
+  This file is the home page of the site. It allows the user to type in a number in either degrees
+  Fahrenheit or degrees Celsius and then it converts/displays that number in the opposite unit.
+  ***
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CP4</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1>Temperature Converter</h1>
+    <p>Enter a number in either degrees fahrenheit or degrees celsius, and it will be converted.</p>
+    <form id="input-form">
+      <p><input type="number" name="num" id="user-input"></p>
+    </form>
+    <!--
+      Inspiration from: https://www.w3schools.com/tags/att_input_type_radio.asp
+    -->
+    <p>
+      <input type="radio" id="fahrenheit" name="deg">degrees Fahrenheit
+      <input type="radio" id="celsius" name="deg">degrees Celsius
+    </p>
+    <!--
+      Inspiration from: https://www.w3schools.com/tags/tag_select.asp
+    -->
+    <p>Convert to:</p>
+    <select name="units" id="units">
+      <option value="default" selected="selected">Select your option</option>
+      <option value="degreesF">Fahrenheit</option>
+      <option value="degreesC">Celsius</option>
+    </select>
+    <p><button id="my-btn">Convert</button></p>
+    <div id="text">
+      <p>Please type in a number and select which unit you want to convert it to.</p>
+    </div>
+  </body>
+</html>

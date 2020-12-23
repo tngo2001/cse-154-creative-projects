@@ -1,0 +1,25 @@
+/*
+  Name: Thompson Ngo
+  Date: November 16, 2020
+  Section: CSE 154 AF
+
+  This file controls the appearance of the index.html page. It changes the appearance of the
+  content within the body tags, as well as anything with the "text" id, which includes but isn't
+  limited to the background color, font color, and text alignment.
+*/
+
+body {
+  background-color: #333;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 3px #FFFFFF;
+  width: 60%;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+#text {
+  color: #FF0000;
+}
